@@ -9,5 +9,9 @@ int main()
     int int1 = 0;
     cin >> int1;
     cout << int1 << endl << "end" << endl;
+    int arr1[5] = {1,2,3,4,5};
+    for(int i = 0;i < 5;i++){
+        cout << arr1[i] << endl;
+    }
     return 0;
 }
